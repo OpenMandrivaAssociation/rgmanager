@@ -10,6 +10,7 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: System
 #Url: 
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires: chkconfig initscripts glibc ncurses libxml2 bash grep sed gawk magma ccs
 BuildRequires: glibc-devel ncurses-devel libxml2-devel magma ccs
 
