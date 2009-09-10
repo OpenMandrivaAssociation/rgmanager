@@ -1,6 +1,6 @@
 %define name rgmanager
 %define version 1.9.30
-%define release %mkrel 3
+%define release %mkrel 4
 
 Summary: HA Resource Group Failover for Red Hat Enterprise Linux
 Name: %{name}
