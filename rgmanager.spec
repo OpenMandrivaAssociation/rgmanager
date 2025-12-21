@@ -12,6 +12,11 @@ Group: System
 #Url: 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires: chkconfig initscripts glibc ncurses libxml2 bash grep sed gawk magma ccs
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: glibc-devel ncurses-devel libxml2-devel magma ccs
 
 %description
